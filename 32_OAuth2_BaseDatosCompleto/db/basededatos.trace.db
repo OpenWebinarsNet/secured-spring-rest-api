@@ -1,0 +1,1236 @@
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CLIENT_DETAILS ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CLIENT_DETAILS ( [*]"; expected "identifier"; SQL statement:
+create table oauth_client_details ( [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_ID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_ID[*] VARCHAR(255) PRIMARY KEY, "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_id VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "RESOURCE_IDS[*] VARCHAR(255), "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "RESOURCE_IDS[*] VARCHAR(255), "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+resource_ids VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_SECRET[*] VARCHAR(255), "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_SECRET[*] VARCHAR(255), "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_secret VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SCOPE[*] VARCHAR(255), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "SCOPE[*] VARCHAR(255), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+scope VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHORIZED_GRANT_TYPES[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHORIZED_GRANT_TYPES[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+authorized_grant_types VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "WEB_SERVER_REDIRECT_URI[*] VARCHAR(255), "
+Syntax error in SQL statement "WEB_SERVER_REDIRECT_URI[*] VARCHAR(255), "; SQL statement:
+web_server_redirect_uri VARCHAR(255), [42000-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHORITIES[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHORITIES[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+authorities VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; expected "ALTER, ANALYZE"; SQL statement:
+access_token_validity INTEGER, [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+refresh_token_validity INTEGER, [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ADDITIONAL_INFORMATION[*] VARCHAR(4096), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ADDITIONAL_INFORMATION[*] VARCHAR(4096), "; expected "ALTER, ANALYZE"; SQL statement:
+additional_information VARCHAR(4096), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTOAPPROVE[*] VARCHAR(255) "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTOAPPROVE[*] VARCHAR(255) "; expected "ALTER, ANALYZE"; SQL statement:
+autoapprove VARCHAR(255) [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CLIENT_TOKEN ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CLIENT_TOKEN ( [*]"; expected "identifier"; SQL statement:
+create table oauth_client_token ( [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN_ID[*] VARCHAR(255), "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN_ID[*] VARCHAR(255), "; expected "TRUNCATE"; SQL statement:
+token_id VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN[*] LONG VARBINARY, "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN[*] LONG VARBINARY, "; expected "TRUNCATE"; SQL statement:
+token LONG VARBINARY, [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; expected "ALTER, ANALYZE"; SQL statement:
+authentication_id VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "USER_NAME[*] VARCHAR(255), "; se esperaba "UPDATE, USE"
+Syntax error in SQL statement "USER_NAME[*] VARCHAR(255), "; expected "UPDATE, USE"; SQL statement:
+user_name VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_ID[*] VARCHAR(255) "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_ID[*] VARCHAR(255) "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_id VARCHAR(255) [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_ACCESS_TOKEN ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_ACCESS_TOKEN ( [*]"; expected "identifier"; SQL statement:
+create table oauth_access_token ( [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN_ID[*] VARCHAR(255), "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN_ID[*] VARCHAR(255), "; expected "TRUNCATE"; SQL statement:
+token_id VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN[*] LONG VARBINARY, "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN[*] LONG VARBINARY, "; expected "TRUNCATE"; SQL statement:
+token LONG VARBINARY, [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; expected "ALTER, ANALYZE"; SQL statement:
+authentication_id VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "USER_NAME[*] VARCHAR(255), "; se esperaba "UPDATE, USE"
+Syntax error in SQL statement "USER_NAME[*] VARCHAR(255), "; expected "UPDATE, USE"; SQL statement:
+user_name VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_ID[*] VARCHAR(255), "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_ID[*] VARCHAR(255), "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_id VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION[*] LONG VARBINARY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION[*] LONG VARBINARY, "; expected "ALTER, ANALYZE"; SQL statement:
+authentication LONG VARBINARY, [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REFRESH_TOKEN[*] VARCHAR(255) "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REFRESH_TOKEN[*] VARCHAR(255) "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+refresh_token VARCHAR(255) [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_REFRESH_TOKEN ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_REFRESH_TOKEN ( [*]"; expected "identifier"; SQL statement:
+create table oauth_refresh_token ( [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN_ID[*] VARCHAR(255), "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN_ID[*] VARCHAR(255), "; expected "TRUNCATE"; SQL statement:
+token_id VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN[*] LONG VARBINARY, "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN[*] LONG VARBINARY, "; expected "TRUNCATE"; SQL statement:
+token LONG VARBINARY, [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION[*] LONG VARBINARY "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION[*] LONG VARBINARY "; expected "ALTER, ANALYZE"; SQL statement:
+authentication LONG VARBINARY [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CODE ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CODE ( [*]"; expected "identifier"; SQL statement:
+create table oauth_code ( [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CODE[*] VARCHAR(255), AUTHENTICATION LONG VARBINARY "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CODE[*] VARCHAR(255), AUTHENTICATION LONG VARBINARY "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+code VARCHAR(255), authentication LONG VARBINARY [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_APPROVALS ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_APPROVALS ( [*]"; expected "identifier"; SQL statement:
+create table oauth_approvals ( [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "USERID[*] VARCHAR(255), "; se esperaba "UPDATE, USE"
+Syntax error in SQL statement "USERID[*] VARCHAR(255), "; expected "UPDATE, USE"; SQL statement:
+userId VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENTID[*] VARCHAR(255), "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENTID[*] VARCHAR(255), "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+clientId VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SCOPE[*] VARCHAR(255), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "SCOPE[*] VARCHAR(255), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+scope VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "STATUS[*] VARCHAR(10), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "STATUS[*] VARCHAR(10), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+status VARCHAR(10), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "EXPIRESAT[*] TIMESTAMP, "; se esperaba "EXPLAIN, EXECUTE"
+Syntax error in SQL statement "EXPIRESAT[*] TIMESTAMP, "; expected "EXPLAIN, EXECUTE"; SQL statement:
+expiresAt TIMESTAMP, [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "LASTMODIFIEDAT[*] TIMESTAMP "
+Syntax error in SQL statement "LASTMODIFIEDAT[*] TIMESTAMP "; SQL statement:
+lastModifiedAt TIMESTAMP [42000-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTDETAILS ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE CLIENTDETAILS ( [*]"; expected "identifier"; SQL statement:
+create table ClientDetails ( [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "APPID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "APPID[*] VARCHAR(255) PRIMARY KEY, "; expected "ALTER, ANALYZE"; SQL statement:
+appId VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "RESOURCEIDS[*] VARCHAR(255), "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "RESOURCEIDS[*] VARCHAR(255), "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+resourceIds VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "APPSECRET[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "APPSECRET[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+appSecret VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SCOPE[*] VARCHAR(255), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "SCOPE[*] VARCHAR(255), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+scope VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "GRANTTYPES[*] VARCHAR(255), "; se esperaba "GRANT"
+Syntax error in SQL statement "GRANTTYPES[*] VARCHAR(255), "; expected "GRANT"; SQL statement:
+grantTypes VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REDIRECTURL[*] VARCHAR(255), "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REDIRECTURL[*] VARCHAR(255), "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+redirectUrl VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHORITIES[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHORITIES[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+authorities VARCHAR(255), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; expected "ALTER, ANALYZE"; SQL statement:
+access_token_validity INTEGER, [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+refresh_token_validity INTEGER, [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ADDITIONALINFORMATION[*] VARCHAR(4096), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ADDITIONALINFORMATION[*] VARCHAR(4096), "; expected "ALTER, ANALYZE"; SQL statement:
+additionalInformation VARCHAR(4096), [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTOAPPROVESCOPES[*] VARCHAR(255) "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTOAPPROVESCOPES[*] VARCHAR(255) "; expected "ALTER, ANALYZE"; SQL statement:
+autoApproveScopes VARCHAR(255) [42001-199]
+2019-11-18 20:27:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CLIENT_DETAILS ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CLIENT_DETAILS ( [*]"; expected "identifier"; SQL statement:
+create table oauth_client_details ( [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_ID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_ID[*] VARCHAR(255) PRIMARY KEY, "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_id VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "RESOURCE_IDS[*] VARCHAR(255), "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "RESOURCE_IDS[*] VARCHAR(255), "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+resource_ids VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_SECRET[*] VARCHAR(255), "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_SECRET[*] VARCHAR(255), "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_secret VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SCOPE[*] VARCHAR(255), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "SCOPE[*] VARCHAR(255), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+scope VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHORIZED_GRANT_TYPES[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHORIZED_GRANT_TYPES[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+authorized_grant_types VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "WEB_SERVER_REDIRECT_URI[*] VARCHAR(255), "
+Syntax error in SQL statement "WEB_SERVER_REDIRECT_URI[*] VARCHAR(255), "; SQL statement:
+web_server_redirect_uri VARCHAR(255), [42000-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHORITIES[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHORITIES[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+authorities VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; expected "ALTER, ANALYZE"; SQL statement:
+access_token_validity INTEGER, [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+refresh_token_validity INTEGER, [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ADDITIONAL_INFORMATION[*] VARCHAR(4096), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ADDITIONAL_INFORMATION[*] VARCHAR(4096), "; expected "ALTER, ANALYZE"; SQL statement:
+additional_information VARCHAR(4096), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTOAPPROVE[*] VARCHAR(255) "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTOAPPROVE[*] VARCHAR(255) "; expected "ALTER, ANALYZE"; SQL statement:
+autoapprove VARCHAR(255) [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CLIENT_TOKEN ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CLIENT_TOKEN ( [*]"; expected "identifier"; SQL statement:
+create table oauth_client_token ( [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN_ID[*] VARCHAR(255), "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN_ID[*] VARCHAR(255), "; expected "TRUNCATE"; SQL statement:
+token_id VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN[*] LONG VARBINARY, "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN[*] LONG VARBINARY, "; expected "TRUNCATE"; SQL statement:
+token LONG VARBINARY, [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; expected "ALTER, ANALYZE"; SQL statement:
+authentication_id VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "USER_NAME[*] VARCHAR(255), "; se esperaba "UPDATE, USE"
+Syntax error in SQL statement "USER_NAME[*] VARCHAR(255), "; expected "UPDATE, USE"; SQL statement:
+user_name VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_ID[*] VARCHAR(255) "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_ID[*] VARCHAR(255) "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_id VARCHAR(255) [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_ACCESS_TOKEN ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_ACCESS_TOKEN ( [*]"; expected "identifier"; SQL statement:
+create table oauth_access_token ( [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN_ID[*] VARCHAR(255), "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN_ID[*] VARCHAR(255), "; expected "TRUNCATE"; SQL statement:
+token_id VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN[*] LONG VARBINARY, "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN[*] LONG VARBINARY, "; expected "TRUNCATE"; SQL statement:
+token LONG VARBINARY, [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; expected "ALTER, ANALYZE"; SQL statement:
+authentication_id VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "USER_NAME[*] VARCHAR(255), "; se esperaba "UPDATE, USE"
+Syntax error in SQL statement "USER_NAME[*] VARCHAR(255), "; expected "UPDATE, USE"; SQL statement:
+user_name VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_ID[*] VARCHAR(255), "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_ID[*] VARCHAR(255), "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_id VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION[*] LONG VARBINARY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION[*] LONG VARBINARY, "; expected "ALTER, ANALYZE"; SQL statement:
+authentication LONG VARBINARY, [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REFRESH_TOKEN[*] VARCHAR(255) "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REFRESH_TOKEN[*] VARCHAR(255) "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+refresh_token VARCHAR(255) [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_REFRESH_TOKEN ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_REFRESH_TOKEN ( [*]"; expected "identifier"; SQL statement:
+create table oauth_refresh_token ( [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN_ID[*] VARCHAR(255), "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN_ID[*] VARCHAR(255), "; expected "TRUNCATE"; SQL statement:
+token_id VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN[*] LONG VARBINARY, "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN[*] LONG VARBINARY, "; expected "TRUNCATE"; SQL statement:
+token LONG VARBINARY, [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION[*] LONG VARBINARY "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION[*] LONG VARBINARY "; expected "ALTER, ANALYZE"; SQL statement:
+authentication LONG VARBINARY [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CODE ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CODE ( [*]"; expected "identifier"; SQL statement:
+create table oauth_code ( [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CODE[*] VARCHAR(255), AUTHENTICATION LONG VARBINARY "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CODE[*] VARCHAR(255), AUTHENTICATION LONG VARBINARY "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+code VARCHAR(255), authentication LONG VARBINARY [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_APPROVALS ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_APPROVALS ( [*]"; expected "identifier"; SQL statement:
+create table oauth_approvals ( [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "USERID[*] VARCHAR(255), "; se esperaba "UPDATE, USE"
+Syntax error in SQL statement "USERID[*] VARCHAR(255), "; expected "UPDATE, USE"; SQL statement:
+userId VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENTID[*] VARCHAR(255), "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENTID[*] VARCHAR(255), "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+clientId VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SCOPE[*] VARCHAR(255), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "SCOPE[*] VARCHAR(255), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+scope VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "STATUS[*] VARCHAR(10), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "STATUS[*] VARCHAR(10), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+status VARCHAR(10), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "EXPIRESAT[*] TIMESTAMP, "; se esperaba "EXPLAIN, EXECUTE"
+Syntax error in SQL statement "EXPIRESAT[*] TIMESTAMP, "; expected "EXPLAIN, EXECUTE"; SQL statement:
+expiresAt TIMESTAMP, [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "LASTMODIFIEDAT[*] TIMESTAMP "
+Syntax error in SQL statement "LASTMODIFIEDAT[*] TIMESTAMP "; SQL statement:
+lastModifiedAt TIMESTAMP [42000-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTDETAILS ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE CLIENTDETAILS ( [*]"; expected "identifier"; SQL statement:
+create table ClientDetails ( [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "APPID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "APPID[*] VARCHAR(255) PRIMARY KEY, "; expected "ALTER, ANALYZE"; SQL statement:
+appId VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "RESOURCEIDS[*] VARCHAR(255), "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "RESOURCEIDS[*] VARCHAR(255), "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+resourceIds VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "APPSECRET[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "APPSECRET[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+appSecret VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SCOPE[*] VARCHAR(255), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "SCOPE[*] VARCHAR(255), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+scope VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "GRANTTYPES[*] VARCHAR(255), "; se esperaba "GRANT"
+Syntax error in SQL statement "GRANTTYPES[*] VARCHAR(255), "; expected "GRANT"; SQL statement:
+grantTypes VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REDIRECTURL[*] VARCHAR(255), "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REDIRECTURL[*] VARCHAR(255), "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+redirectUrl VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHORITIES[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHORITIES[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+authorities VARCHAR(255), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; expected "ALTER, ANALYZE"; SQL statement:
+access_token_validity INTEGER, [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+refresh_token_validity INTEGER, [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ADDITIONALINFORMATION[*] VARCHAR(4096), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ADDITIONALINFORMATION[*] VARCHAR(4096), "; expected "ALTER, ANALYZE"; SQL statement:
+additionalInformation VARCHAR(4096), [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTOAPPROVESCOPES[*] VARCHAR(255) "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTOAPPROVESCOPES[*] VARCHAR(255) "; expected "ALTER, ANALYZE"; SQL statement:
+autoApproveScopes VARCHAR(255) [42001-199]
+2019-11-18 20:27:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CLIENT_DETAILS ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CLIENT_DETAILS ( [*]"; expected "identifier"; SQL statement:
+create table oauth_client_details ( [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_ID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_ID[*] VARCHAR(255) PRIMARY KEY, "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_id VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "RESOURCE_IDS[*] VARCHAR(255), "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "RESOURCE_IDS[*] VARCHAR(255), "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+resource_ids VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_SECRET[*] VARCHAR(255), "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_SECRET[*] VARCHAR(255), "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_secret VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SCOPE[*] VARCHAR(255), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "SCOPE[*] VARCHAR(255), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+scope VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHORIZED_GRANT_TYPES[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHORIZED_GRANT_TYPES[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+authorized_grant_types VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "WEB_SERVER_REDIRECT_URI[*] VARCHAR(255), "
+Syntax error in SQL statement "WEB_SERVER_REDIRECT_URI[*] VARCHAR(255), "; SQL statement:
+web_server_redirect_uri VARCHAR(255), [42000-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHORITIES[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHORITIES[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+authorities VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; expected "ALTER, ANALYZE"; SQL statement:
+access_token_validity INTEGER, [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+refresh_token_validity INTEGER, [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ADDITIONAL_INFORMATION[*] VARCHAR(4096), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ADDITIONAL_INFORMATION[*] VARCHAR(4096), "; expected "ALTER, ANALYZE"; SQL statement:
+additional_information VARCHAR(4096), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTOAPPROVE[*] VARCHAR(255) "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTOAPPROVE[*] VARCHAR(255) "; expected "ALTER, ANALYZE"; SQL statement:
+autoapprove VARCHAR(255) [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CLIENT_TOKEN ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CLIENT_TOKEN ( [*]"; expected "identifier"; SQL statement:
+create table oauth_client_token ( [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN_ID[*] VARCHAR(255), "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN_ID[*] VARCHAR(255), "; expected "TRUNCATE"; SQL statement:
+token_id VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN[*] LONG VARBINARY, "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN[*] LONG VARBINARY, "; expected "TRUNCATE"; SQL statement:
+token LONG VARBINARY, [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; expected "ALTER, ANALYZE"; SQL statement:
+authentication_id VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "USER_NAME[*] VARCHAR(255), "; se esperaba "UPDATE, USE"
+Syntax error in SQL statement "USER_NAME[*] VARCHAR(255), "; expected "UPDATE, USE"; SQL statement:
+user_name VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_ID[*] VARCHAR(255) "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_ID[*] VARCHAR(255) "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_id VARCHAR(255) [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_ACCESS_TOKEN ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_ACCESS_TOKEN ( [*]"; expected "identifier"; SQL statement:
+create table oauth_access_token ( [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN_ID[*] VARCHAR(255), "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN_ID[*] VARCHAR(255), "; expected "TRUNCATE"; SQL statement:
+token_id VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN[*] LONG VARBINARY, "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN[*] LONG VARBINARY, "; expected "TRUNCATE"; SQL statement:
+token LONG VARBINARY, [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; expected "ALTER, ANALYZE"; SQL statement:
+authentication_id VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "USER_NAME[*] VARCHAR(255), "; se esperaba "UPDATE, USE"
+Syntax error in SQL statement "USER_NAME[*] VARCHAR(255), "; expected "UPDATE, USE"; SQL statement:
+user_name VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_ID[*] VARCHAR(255), "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_ID[*] VARCHAR(255), "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_id VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION[*] LONG VARBINARY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION[*] LONG VARBINARY, "; expected "ALTER, ANALYZE"; SQL statement:
+authentication LONG VARBINARY, [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REFRESH_TOKEN[*] VARCHAR(255) "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REFRESH_TOKEN[*] VARCHAR(255) "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+refresh_token VARCHAR(255) [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_REFRESH_TOKEN ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_REFRESH_TOKEN ( [*]"; expected "identifier"; SQL statement:
+create table oauth_refresh_token ( [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN_ID[*] VARCHAR(255), "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN_ID[*] VARCHAR(255), "; expected "TRUNCATE"; SQL statement:
+token_id VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN[*] LONG VARBINARY, "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN[*] LONG VARBINARY, "; expected "TRUNCATE"; SQL statement:
+token LONG VARBINARY, [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION[*] LONG VARBINARY "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION[*] LONG VARBINARY "; expected "ALTER, ANALYZE"; SQL statement:
+authentication LONG VARBINARY [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CODE ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CODE ( [*]"; expected "identifier"; SQL statement:
+create table oauth_code ( [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CODE[*] VARCHAR(255), AUTHENTICATION LONG VARBINARY "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CODE[*] VARCHAR(255), AUTHENTICATION LONG VARBINARY "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+code VARCHAR(255), authentication LONG VARBINARY [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_APPROVALS ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_APPROVALS ( [*]"; expected "identifier"; SQL statement:
+create table oauth_approvals ( [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "USERID[*] VARCHAR(255), "; se esperaba "UPDATE, USE"
+Syntax error in SQL statement "USERID[*] VARCHAR(255), "; expected "UPDATE, USE"; SQL statement:
+userId VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENTID[*] VARCHAR(255), "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENTID[*] VARCHAR(255), "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+clientId VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SCOPE[*] VARCHAR(255), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "SCOPE[*] VARCHAR(255), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+scope VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "STATUS[*] VARCHAR(10), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "STATUS[*] VARCHAR(10), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+status VARCHAR(10), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "EXPIRESAT[*] TIMESTAMP, "; se esperaba "EXPLAIN, EXECUTE"
+Syntax error in SQL statement "EXPIRESAT[*] TIMESTAMP, "; expected "EXPLAIN, EXECUTE"; SQL statement:
+expiresAt TIMESTAMP, [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "LASTMODIFIEDAT[*] TIMESTAMP "
+Syntax error in SQL statement "LASTMODIFIEDAT[*] TIMESTAMP "; SQL statement:
+lastModifiedAt TIMESTAMP [42000-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTDETAILS ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE CLIENTDETAILS ( [*]"; expected "identifier"; SQL statement:
+create table ClientDetails ( [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "APPID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "APPID[*] VARCHAR(255) PRIMARY KEY, "; expected "ALTER, ANALYZE"; SQL statement:
+appId VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "RESOURCEIDS[*] VARCHAR(255), "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "RESOURCEIDS[*] VARCHAR(255), "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+resourceIds VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "APPSECRET[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "APPSECRET[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+appSecret VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SCOPE[*] VARCHAR(255), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "SCOPE[*] VARCHAR(255), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+scope VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "GRANTTYPES[*] VARCHAR(255), "; se esperaba "GRANT"
+Syntax error in SQL statement "GRANTTYPES[*] VARCHAR(255), "; expected "GRANT"; SQL statement:
+grantTypes VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REDIRECTURL[*] VARCHAR(255), "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REDIRECTURL[*] VARCHAR(255), "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+redirectUrl VARCHAR(255), [42001-199]
+2019-11-18 20:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHORITIES[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHORITIES[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+authorities VARCHAR(255), [42001-199]
+2019-11-18 20:28:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; expected "ALTER, ANALYZE"; SQL statement:
+access_token_validity INTEGER, [42001-199]
+2019-11-18 20:28:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+refresh_token_validity INTEGER, [42001-199]
+2019-11-18 20:28:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ADDITIONALINFORMATION[*] VARCHAR(4096), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ADDITIONALINFORMATION[*] VARCHAR(4096), "; expected "ALTER, ANALYZE"; SQL statement:
+additionalInformation VARCHAR(4096), [42001-199]
+2019-11-18 20:28:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTOAPPROVESCOPES[*] VARCHAR(255) "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTOAPPROVESCOPES[*] VARCHAR(255) "; expected "ALTER, ANALYZE"; SQL statement:
+autoApproveScopes VARCHAR(255) [42001-199]
+2019-11-18 20:28:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CLIENT_DETAILS ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CLIENT_DETAILS ( [*]"; expected "identifier"; SQL statement:
+create table oauth_client_details ( [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_ID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_ID[*] VARCHAR(255) PRIMARY KEY, "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_id VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "RESOURCE_IDS[*] VARCHAR(255), "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "RESOURCE_IDS[*] VARCHAR(255), "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+resource_ids VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_SECRET[*] VARCHAR(255), "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_SECRET[*] VARCHAR(255), "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_secret VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SCOPE[*] VARCHAR(255), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "SCOPE[*] VARCHAR(255), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+scope VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHORIZED_GRANT_TYPES[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHORIZED_GRANT_TYPES[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+authorized_grant_types VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "WEB_SERVER_REDIRECT_URI[*] VARCHAR(255), "
+Syntax error in SQL statement "WEB_SERVER_REDIRECT_URI[*] VARCHAR(255), "; SQL statement:
+web_server_redirect_uri VARCHAR(255), [42000-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHORITIES[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHORITIES[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+authorities VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; expected "ALTER, ANALYZE"; SQL statement:
+access_token_validity INTEGER, [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+refresh_token_validity INTEGER, [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ADDITIONAL_INFORMATION[*] VARCHAR(4096), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ADDITIONAL_INFORMATION[*] VARCHAR(4096), "; expected "ALTER, ANALYZE"; SQL statement:
+additional_information VARCHAR(4096), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTOAPPROVE[*] VARCHAR(255) "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTOAPPROVE[*] VARCHAR(255) "; expected "ALTER, ANALYZE"; SQL statement:
+autoapprove VARCHAR(255) [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CLIENT_TOKEN ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CLIENT_TOKEN ( [*]"; expected "identifier"; SQL statement:
+create table oauth_client_token ( [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN_ID[*] VARCHAR(255), "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN_ID[*] VARCHAR(255), "; expected "TRUNCATE"; SQL statement:
+token_id VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN[*] LONG VARBINARY, "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN[*] LONG VARBINARY, "; expected "TRUNCATE"; SQL statement:
+token LONG VARBINARY, [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; expected "ALTER, ANALYZE"; SQL statement:
+authentication_id VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "USER_NAME[*] VARCHAR(255), "; se esperaba "UPDATE, USE"
+Syntax error in SQL statement "USER_NAME[*] VARCHAR(255), "; expected "UPDATE, USE"; SQL statement:
+user_name VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_ID[*] VARCHAR(255) "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_ID[*] VARCHAR(255) "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_id VARCHAR(255) [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_ACCESS_TOKEN ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_ACCESS_TOKEN ( [*]"; expected "identifier"; SQL statement:
+create table oauth_access_token ( [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN_ID[*] VARCHAR(255), "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN_ID[*] VARCHAR(255), "; expected "TRUNCATE"; SQL statement:
+token_id VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN[*] LONG VARBINARY, "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN[*] LONG VARBINARY, "; expected "TRUNCATE"; SQL statement:
+token LONG VARBINARY, [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; expected "ALTER, ANALYZE"; SQL statement:
+authentication_id VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "USER_NAME[*] VARCHAR(255), "; se esperaba "UPDATE, USE"
+Syntax error in SQL statement "USER_NAME[*] VARCHAR(255), "; expected "UPDATE, USE"; SQL statement:
+user_name VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_ID[*] VARCHAR(255), "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_ID[*] VARCHAR(255), "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_id VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION[*] LONG VARBINARY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION[*] LONG VARBINARY, "; expected "ALTER, ANALYZE"; SQL statement:
+authentication LONG VARBINARY, [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REFRESH_TOKEN[*] VARCHAR(255) "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REFRESH_TOKEN[*] VARCHAR(255) "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+refresh_token VARCHAR(255) [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_REFRESH_TOKEN ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_REFRESH_TOKEN ( [*]"; expected "identifier"; SQL statement:
+create table oauth_refresh_token ( [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN_ID[*] VARCHAR(255), "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN_ID[*] VARCHAR(255), "; expected "TRUNCATE"; SQL statement:
+token_id VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN[*] LONG VARBINARY, "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN[*] LONG VARBINARY, "; expected "TRUNCATE"; SQL statement:
+token LONG VARBINARY, [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION[*] LONG VARBINARY "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION[*] LONG VARBINARY "; expected "ALTER, ANALYZE"; SQL statement:
+authentication LONG VARBINARY [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CODE ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CODE ( [*]"; expected "identifier"; SQL statement:
+create table oauth_code ( [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CODE[*] VARCHAR(255), AUTHENTICATION LONG VARBINARY "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CODE[*] VARCHAR(255), AUTHENTICATION LONG VARBINARY "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+code VARCHAR(255), authentication LONG VARBINARY [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_APPROVALS ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_APPROVALS ( [*]"; expected "identifier"; SQL statement:
+create table oauth_approvals ( [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "USERID[*] VARCHAR(255), "; se esperaba "UPDATE, USE"
+Syntax error in SQL statement "USERID[*] VARCHAR(255), "; expected "UPDATE, USE"; SQL statement:
+userId VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENTID[*] VARCHAR(255), "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENTID[*] VARCHAR(255), "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+clientId VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SCOPE[*] VARCHAR(255), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "SCOPE[*] VARCHAR(255), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+scope VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "STATUS[*] VARCHAR(10), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "STATUS[*] VARCHAR(10), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+status VARCHAR(10), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "EXPIRESAT[*] TIMESTAMP, "; se esperaba "EXPLAIN, EXECUTE"
+Syntax error in SQL statement "EXPIRESAT[*] TIMESTAMP, "; expected "EXPLAIN, EXECUTE"; SQL statement:
+expiresAt TIMESTAMP, [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "LASTMODIFIEDAT[*] TIMESTAMP "
+Syntax error in SQL statement "LASTMODIFIEDAT[*] TIMESTAMP "; SQL statement:
+lastModifiedAt TIMESTAMP [42000-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTDETAILS ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE CLIENTDETAILS ( [*]"; expected "identifier"; SQL statement:
+create table ClientDetails ( [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "APPID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "APPID[*] VARCHAR(255) PRIMARY KEY, "; expected "ALTER, ANALYZE"; SQL statement:
+appId VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "RESOURCEIDS[*] VARCHAR(255), "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "RESOURCEIDS[*] VARCHAR(255), "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+resourceIds VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "APPSECRET[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "APPSECRET[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+appSecret VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SCOPE[*] VARCHAR(255), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "SCOPE[*] VARCHAR(255), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+scope VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "GRANTTYPES[*] VARCHAR(255), "; se esperaba "GRANT"
+Syntax error in SQL statement "GRANTTYPES[*] VARCHAR(255), "; expected "GRANT"; SQL statement:
+grantTypes VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REDIRECTURL[*] VARCHAR(255), "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REDIRECTURL[*] VARCHAR(255), "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+redirectUrl VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHORITIES[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHORITIES[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+authorities VARCHAR(255), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; expected "ALTER, ANALYZE"; SQL statement:
+access_token_validity INTEGER, [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+refresh_token_validity INTEGER, [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ADDITIONALINFORMATION[*] VARCHAR(4096), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ADDITIONALINFORMATION[*] VARCHAR(4096), "; expected "ALTER, ANALYZE"; SQL statement:
+additionalInformation VARCHAR(4096), [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTOAPPROVESCOPES[*] VARCHAR(255) "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTOAPPROVESCOPES[*] VARCHAR(255) "; expected "ALTER, ANALYZE"; SQL statement:
+autoApproveScopes VARCHAR(255) [42001-199]
+2019-11-18 20:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CLIENT_TOKEN ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CLIENT_TOKEN ( [*]"; expected "identifier"; SQL statement:
+create table oauth_client_token ( [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN_ID[*] VARCHAR(255), "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN_ID[*] VARCHAR(255), "; expected "TRUNCATE"; SQL statement:
+token_id VARCHAR(255), [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN[*] LONG VARBINARY, "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN[*] LONG VARBINARY, "; expected "TRUNCATE"; SQL statement:
+token LONG VARBINARY, [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; expected "ALTER, ANALYZE"; SQL statement:
+authentication_id VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "USER_NAME[*] VARCHAR(255), "; se esperaba "UPDATE, USE"
+Syntax error in SQL statement "USER_NAME[*] VARCHAR(255), "; expected "UPDATE, USE"; SQL statement:
+user_name VARCHAR(255), [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_ID[*] VARCHAR(255) "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_ID[*] VARCHAR(255) "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_id VARCHAR(255) [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_ACCESS_TOKEN ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_ACCESS_TOKEN ( [*]"; expected "identifier"; SQL statement:
+create table oauth_access_token ( [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN_ID[*] VARCHAR(255), "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN_ID[*] VARCHAR(255), "; expected "TRUNCATE"; SQL statement:
+token_id VARCHAR(255), [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN[*] LONG VARBINARY, "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN[*] LONG VARBINARY, "; expected "TRUNCATE"; SQL statement:
+token LONG VARBINARY, [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION_ID[*] VARCHAR(255) PRIMARY KEY, "; expected "ALTER, ANALYZE"; SQL statement:
+authentication_id VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "USER_NAME[*] VARCHAR(255), "; se esperaba "UPDATE, USE"
+Syntax error in SQL statement "USER_NAME[*] VARCHAR(255), "; expected "UPDATE, USE"; SQL statement:
+user_name VARCHAR(255), [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_ID[*] VARCHAR(255), "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_ID[*] VARCHAR(255), "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_id VARCHAR(255), [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION[*] LONG VARBINARY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION[*] LONG VARBINARY, "; expected "ALTER, ANALYZE"; SQL statement:
+authentication LONG VARBINARY, [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REFRESH_TOKEN[*] VARCHAR(255) "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REFRESH_TOKEN[*] VARCHAR(255) "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+refresh_token VARCHAR(255) [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_REFRESH_TOKEN ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_REFRESH_TOKEN ( [*]"; expected "identifier"; SQL statement:
+create table oauth_refresh_token ( [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN_ID[*] VARCHAR(255), "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN_ID[*] VARCHAR(255), "; expected "TRUNCATE"; SQL statement:
+token_id VARCHAR(255), [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "TOKEN[*] LONG VARBINARY, "; se esperaba "TRUNCATE"
+Syntax error in SQL statement "TOKEN[*] LONG VARBINARY, "; expected "TRUNCATE"; SQL statement:
+token LONG VARBINARY, [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHENTICATION[*] LONG VARBINARY "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHENTICATION[*] LONG VARBINARY "; expected "ALTER, ANALYZE"; SQL statement:
+authentication LONG VARBINARY [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CODE ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CODE ( [*]"; expected "identifier"; SQL statement:
+create table oauth_code ( [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CODE[*] VARCHAR(255), AUTHENTICATION LONG VARBINARY "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CODE[*] VARCHAR(255), AUTHENTICATION LONG VARBINARY "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+code VARCHAR(255), authentication LONG VARBINARY [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_APPROVALS ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_APPROVALS ( [*]"; expected "identifier"; SQL statement:
+create table oauth_approvals ( [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "USERID[*] VARCHAR(255), "; se esperaba "UPDATE, USE"
+Syntax error in SQL statement "USERID[*] VARCHAR(255), "; expected "UPDATE, USE"; SQL statement:
+userId VARCHAR(255), [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENTID[*] VARCHAR(255), "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENTID[*] VARCHAR(255), "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+clientId VARCHAR(255), [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SCOPE[*] VARCHAR(255), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "SCOPE[*] VARCHAR(255), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+scope VARCHAR(255), [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "STATUS[*] VARCHAR(10), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "STATUS[*] VARCHAR(10), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+status VARCHAR(10), [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "EXPIRESAT[*] TIMESTAMP, "; se esperaba "EXPLAIN, EXECUTE"
+Syntax error in SQL statement "EXPIRESAT[*] TIMESTAMP, "; expected "EXPLAIN, EXECUTE"; SQL statement:
+expiresAt TIMESTAMP, [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "LASTMODIFIEDAT[*] TIMESTAMP "
+Syntax error in SQL statement "LASTMODIFIEDAT[*] TIMESTAMP "; SQL statement:
+lastModifiedAt TIMESTAMP [42000-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTDETAILS ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE CLIENTDETAILS ( [*]"; expected "identifier"; SQL statement:
+create table ClientDetails ( [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "APPID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "APPID[*] VARCHAR(255) PRIMARY KEY, "; expected "ALTER, ANALYZE"; SQL statement:
+appId VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "RESOURCEIDS[*] VARCHAR(255), "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "RESOURCEIDS[*] VARCHAR(255), "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+resourceIds VARCHAR(255), [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "APPSECRET[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "APPSECRET[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+appSecret VARCHAR(255), [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SCOPE[*] VARCHAR(255), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "SCOPE[*] VARCHAR(255), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+scope VARCHAR(255), [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "GRANTTYPES[*] VARCHAR(255), "; se esperaba "GRANT"
+Syntax error in SQL statement "GRANTTYPES[*] VARCHAR(255), "; expected "GRANT"; SQL statement:
+grantTypes VARCHAR(255), [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REDIRECTURL[*] VARCHAR(255), "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REDIRECTURL[*] VARCHAR(255), "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+redirectUrl VARCHAR(255), [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHORITIES[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHORITIES[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+authorities VARCHAR(255), [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; expected "ALTER, ANALYZE"; SQL statement:
+access_token_validity INTEGER, [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+refresh_token_validity INTEGER, [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ADDITIONALINFORMATION[*] VARCHAR(4096), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ADDITIONALINFORMATION[*] VARCHAR(4096), "; expected "ALTER, ANALYZE"; SQL statement:
+additionalInformation VARCHAR(4096), [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTOAPPROVESCOPES[*] VARCHAR(255) "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTOAPPROVESCOPES[*] VARCHAR(255) "; expected "ALTER, ANALYZE"; SQL statement:
+autoApproveScopes VARCHAR(255) [42001-199]
+2019-11-18 20:30:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-199]
+2019-11-18 20:32:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "OAUTH_CLIENT_DETAILS" ya existe
+Table "OAUTH_CLIENT_DETAILS" already exists; SQL statement:
+create table oauth_client_details (client_id VARCHAR(255) PRIMARY KEY, resource_ids VARCHAR(255), client_secret VARCHAR(255), scope VARCHAR(255), authorized_grant_types VARCHAR(255), web_server_redirect_uri VARCHAR(255), authorities VARCHAR(255), access_token_validity INTEGER, refresh_token_validity INTEGER, additional_information VARCHAR(4096), autoapprove VARCHAR(255)) [42101-199]
+2019-11-18 20:32:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CLIENT_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION_ID VARCHAR(255) PRIMARY KEY, USER_NAME VARCHAR(255), CLIENT_ID VARCHAR(255)) "; se esperaba "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CLIENT_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION_ID VARCHAR(255) PRIMARY KEY, USER_NAME VARCHAR(255), CLIENT_ID VARCHAR(255)) "; expected "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table oauth_client_token (token_id VARCHAR(255), token LONG VARBINARY, authentication_id VARCHAR(255) PRIMARY KEY, user_name VARCHAR(255), client_id VARCHAR(255)) [42001-199]
+2019-11-18 20:32:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_ACCESS_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION_ID VARCHAR(255) PRIMARY KEY, USER_NAME VARCHAR(255), CLIENT_ID VARCHAR(255), AUTHENTICATION LONG VARBINARY, REFRESH_TOKEN VARCHAR(255)) "; se esperaba "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE OAUTH_ACCESS_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION_ID VARCHAR(255) PRIMARY KEY, USER_NAME VARCHAR(255), CLIENT_ID VARCHAR(255), AUTHENTICATION LONG VARBINARY, REFRESH_TOKEN VARCHAR(255)) "; expected "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table oauth_access_token (token_id VARCHAR(255), token LONG VARBINARY, authentication_id VARCHAR(255) PRIMARY KEY, user_name VARCHAR(255), client_id VARCHAR(255), authentication LONG VARBINARY, refresh_token VARCHAR(255)) [42001-199]
+2019-11-18 20:32:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_REFRESH_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION LONG VARBINARY) "; se esperaba "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE OAUTH_REFRESH_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION LONG VARBINARY) "; expected "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table oauth_refresh_token (token_id VARCHAR(255), token LONG VARBINARY, authentication LONG VARBINARY) [42001-199]
+2019-11-18 20:32:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CODE (CODE VARCHAR(255), AUTHENTICATION LONG VARBINARY[*]) "; se esperaba "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CODE (CODE VARCHAR(255), AUTHENTICATION LONG VARBINARY[*]) "; expected "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table oauth_code (code VARCHAR(255), authentication LONG VARBINARY) [42001-199]
+2019-11-18 20:32:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "OAUTH_CLIENT_DETAILS" ya existe
+Table "OAUTH_CLIENT_DETAILS" already exists; SQL statement:
+create table oauth_client_details (client_id VARCHAR(255) PRIMARY KEY, resource_ids VARCHAR(255), client_secret VARCHAR(255), scope VARCHAR(255), authorized_grant_types VARCHAR(255), web_server_redirect_uri VARCHAR(255), authorities VARCHAR(255), access_token_validity INTEGER, refresh_token_validity INTEGER, additional_information VARCHAR(4096), autoapprove VARCHAR(255)) [42101-199]
+2019-11-18 20:32:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CLIENT_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION_ID VARCHAR(255) PRIMARY KEY, USER_NAME VARCHAR(255), CLIENT_ID VARCHAR(255)) "; se esperaba "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CLIENT_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION_ID VARCHAR(255) PRIMARY KEY, USER_NAME VARCHAR(255), CLIENT_ID VARCHAR(255)) "; expected "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table oauth_client_token (token_id VARCHAR(255), token LONG VARBINARY, authentication_id VARCHAR(255) PRIMARY KEY, user_name VARCHAR(255), client_id VARCHAR(255)) [42001-199]
+2019-11-18 20:32:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_ACCESS_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION_ID VARCHAR(255) PRIMARY KEY, USER_NAME VARCHAR(255), CLIENT_ID VARCHAR(255), AUTHENTICATION LONG VARBINARY, REFRESH_TOKEN VARCHAR(255)) "; se esperaba "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE OAUTH_ACCESS_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION_ID VARCHAR(255) PRIMARY KEY, USER_NAME VARCHAR(255), CLIENT_ID VARCHAR(255), AUTHENTICATION LONG VARBINARY, REFRESH_TOKEN VARCHAR(255)) "; expected "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table oauth_access_token (token_id VARCHAR(255), token LONG VARBINARY, authentication_id VARCHAR(255) PRIMARY KEY, user_name VARCHAR(255), client_id VARCHAR(255), authentication LONG VARBINARY, refresh_token VARCHAR(255)) [42001-199]
+2019-11-18 20:32:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_REFRESH_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION LONG VARBINARY) "; se esperaba "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE OAUTH_REFRESH_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION LONG VARBINARY) "; expected "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table oauth_refresh_token (token_id VARCHAR(255), token LONG VARBINARY, authentication LONG VARBINARY) [42001-199]
+2019-11-18 20:32:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CODE (CODE VARCHAR(255), AUTHENTICATION LONG VARBINARY[*]) "; se esperaba "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CODE (CODE VARCHAR(255), AUTHENTICATION LONG VARBINARY[*]) "; expected "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table oauth_code (code VARCHAR(255), authentication LONG VARBINARY) [42001-199]
+2019-11-18 20:32:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "OAUTH_APPROVALS" ya existe
+Table "OAUTH_APPROVALS" already exists; SQL statement:
+create table oauth_approvals (userId VARCHAR(255), clientId VARCHAR(255), scope VARCHAR(255), status VARCHAR(10), expiresAt TIMESTAMP, lastModifiedAt TIMESTAMP) [42101-199]
+2019-11-18 20:32:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTDETAILS" ya existe
+Table "CLIENTDETAILS" already exists; SQL statement:
+create table ClientDetails (appId VARCHAR(255) PRIMARY KEY, resourceIds VARCHAR(255), appSecret VARCHAR(255), scope VARCHAR(255), grantTypes VARCHAR(255), redirectUrl VARCHAR(255), authorities VARCHAR(255), access_token_validity INTEGER, refresh_token_validity INTEGER, additionalInformation VARCHAR(4096), autoApproveScopes VARCHAR(255)) [42101-199]
+2019-11-18 20:34:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CLIENT_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION_ID VARCHAR(255) PRIMARY KEY, USER_NAME VARCHAR(255), CLIENT_ID VARCHAR(255)) "; se esperaba "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CLIENT_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION_ID VARCHAR(255) PRIMARY KEY, USER_NAME VARCHAR(255), CLIENT_ID VARCHAR(255)) "; expected "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table oauth_client_token (token_id VARCHAR(255), token LONG VARBINARY, authentication_id VARCHAR(255) PRIMARY KEY, user_name VARCHAR(255), client_id VARCHAR(255)) [42001-199]
+2019-11-18 20:34:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_ACCESS_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION_ID VARCHAR(255) PRIMARY KEY, USER_NAME VARCHAR(255), CLIENT_ID VARCHAR(255), AUTHENTICATION LONG VARBINARY, REFRESH_TOKEN VARCHAR(255)) "; se esperaba "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE OAUTH_ACCESS_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION_ID VARCHAR(255) PRIMARY KEY, USER_NAME VARCHAR(255), CLIENT_ID VARCHAR(255), AUTHENTICATION LONG VARBINARY, REFRESH_TOKEN VARCHAR(255)) "; expected "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table oauth_access_token (token_id VARCHAR(255), token LONG VARBINARY, authentication_id VARCHAR(255) PRIMARY KEY, user_name VARCHAR(255), client_id VARCHAR(255), authentication LONG VARBINARY, refresh_token VARCHAR(255)) [42001-199]
+2019-11-18 20:34:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_REFRESH_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION LONG VARBINARY) "; se esperaba "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE OAUTH_REFRESH_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONG VARBINARY[*], AUTHENTICATION LONG VARBINARY) "; expected "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table oauth_refresh_token (token_id VARCHAR(255), token LONG VARBINARY, authentication LONG VARBINARY) [42001-199]
+2019-11-18 20:34:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CODE (CODE VARCHAR(255), AUTHENTICATION LONG VARBINARY[*]) "; se esperaba "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CODE (CODE VARCHAR(255), AUTHENTICATION LONG VARBINARY[*]) "; expected "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table oauth_code (code VARCHAR(255), authentication LONG VARBINARY) [42001-199]
+2019-11-18 20:36:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_ACCESS_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONGVARBINARY, AUTHENTICATION_ID VARCHAR(255) PRIMARY KEY, USER_NAME VARCHAR(255), CLIENT_ID VARCHAR(255), AUTHENTICATION LONG VARBINARY[*], REFRESH_TOKEN VARCHAR(255)) "; se esperaba "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE OAUTH_ACCESS_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONGVARBINARY, AUTHENTICATION_ID VARCHAR(255) PRIMARY KEY, USER_NAME VARCHAR(255), CLIENT_ID VARCHAR(255), AUTHENTICATION LONG VARBINARY[*], REFRESH_TOKEN VARCHAR(255)) "; expected "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table oauth_access_token (token_id VARCHAR(255), token LONGVARBINARY, authentication_id VARCHAR(255) PRIMARY KEY, user_name VARCHAR(255), client_id VARCHAR(255), authentication LONG VARBINARY, refresh_token VARCHAR(255)) [42001-199]
+2019-11-18 20:36:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_REFRESH_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONGVARBINARY, AUTHENTICATION LONG VARBINARY[*]) "; se esperaba "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE OAUTH_REFRESH_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONGVARBINARY, AUTHENTICATION LONG VARBINARY[*]) "; expected "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table oauth_refresh_token (token_id VARCHAR(255), token LONGVARBINARY, authentication LONG VARBINARY) [42001-199]
+2019-11-18 20:36:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_REFRESH_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONGVARBINARY, AUTHENTICATION LONG VARBINARY[*]) "; se esperaba "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE OAUTH_REFRESH_TOKEN (TOKEN_ID VARCHAR(255), TOKEN LONGVARBINARY, AUTHENTICATION LONG VARBINARY[*]) "; expected "RAW, (, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table oauth_refresh_token (token_id VARCHAR(255), token LONGVARBINARY, authentication LONG VARBINARY) [42001-199]
+2019-11-18 20:38:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE OAUTH_CLIENT_DETAILS ( [*]"; se esperaba "identifier"
+Syntax error in SQL statement "CREATE TABLE OAUTH_CLIENT_DETAILS ( [*]"; expected "identifier"; SQL statement:
+create table oauth_client_details ( [42001-199]
+2019-11-18 20:38:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_ID[*] VARCHAR(255) PRIMARY KEY, "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_ID[*] VARCHAR(255) PRIMARY KEY, "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_id VARCHAR(255) PRIMARY KEY, [42001-199]
+2019-11-18 20:38:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "RESOURCE_IDS[*] VARCHAR(255), "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "RESOURCE_IDS[*] VARCHAR(255), "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+resource_ids VARCHAR(255), [42001-199]
+2019-11-18 20:38:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENT_SECRET[*] VARCHAR(255), "; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENT_SECRET[*] VARCHAR(255), "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+client_secret VARCHAR(255), [42001-199]
+2019-11-18 20:38:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SCOPE[*] VARCHAR(255), "; se esperaba "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "SCOPE[*] VARCHAR(255), "; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+scope VARCHAR(255), [42001-199]
+2019-11-18 20:38:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHORIZED_GRANT_TYPES[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHORIZED_GRANT_TYPES[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+authorized_grant_types VARCHAR(255), [42001-199]
+2019-11-18 20:38:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "WEB_SERVER_REDIRECT_URI[*] VARCHAR(255), "
+Syntax error in SQL statement "WEB_SERVER_REDIRECT_URI[*] VARCHAR(255), "; SQL statement:
+web_server_redirect_uri VARCHAR(255), [42000-199]
+2019-11-18 20:38:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTHORITIES[*] VARCHAR(255), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTHORITIES[*] VARCHAR(255), "; expected "ALTER, ANALYZE"; SQL statement:
+authorities VARCHAR(255), [42001-199]
+2019-11-18 20:38:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ACCESS_TOKEN_VALIDITY[*] INTEGER, "; expected "ALTER, ANALYZE"; SQL statement:
+access_token_validity INTEGER, [42001-199]
+2019-11-18 20:38:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; se esperaba "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"
+Syntax error in SQL statement "REFRESH_TOKEN_VALIDITY[*] INTEGER, "; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE, REPLACE"; SQL statement:
+refresh_token_validity INTEGER, [42001-199]
+2019-11-18 20:38:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ADDITIONAL_INFORMATION[*] VARCHAR(4096), "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "ADDITIONAL_INFORMATION[*] VARCHAR(4096), "; expected "ALTER, ANALYZE"; SQL statement:
+additional_information VARCHAR(4096), [42001-199]
+2019-11-18 20:38:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "AUTOAPPROVE[*] VARCHAR(255)) "; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "AUTOAPPROVE[*] VARCHAR(255)) "; expected "ALTER, ANALYZE"; SQL statement:
+autoapprove VARCHAR(255)) [42001-199]
+2019-11-18 20:55:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * CLIENTDETAILS[*]"
+Syntax error in SQL statement "SELECT * CLIENTDETAILS[*]"; SQL statement:
+SELECT * CLIENTDETAILS [42000-199]

@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>Login</title>
+
+<!-- Bootstrap core CSS -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<!-- Custom styles for this template -->
+<link href="style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Login via Password Grant</h3>
+					</div>
+					<div class="panel-body">
+						<form method="POST" id="login-form">
+							<fieldset>
+								<div class="form-group">
+									<input class="form-control" placeholder="Username"
+										name="username" type="text">
+								</div>
+								<div class="form-group">
+									<input class="form-control" placeholder="Password"
+										name="password" type="password" value="">
+								</div>
+								<input class="btn btn-lg btn-success btn-block" type="button"
+									value="Login" name="submit" id="submit-button">
+							</fieldset>
+						</form>
+						<hr />
+						<center>
+							<h4>O</h4>
+						</center>
+						<center>
+							<a
+								href="http://localhost:8080/oauth/authorize?response_type=token&client_id=cliente&scope=read&redirect_uri=http://localhost:8081/login.html"
+								class="btn btn-lg btn-primary btn-default">Login via
+								Implicit Grant</a>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- /container -->
+
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src="security.js"></script>
+</body>
+</html>
